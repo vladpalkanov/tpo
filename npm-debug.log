@@ -1,0 +1,162 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webdriverio',
+1 verbose cli   '==save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink /usr/bin/node
+5 warn package.json 4@1.0.0 No description
+6 warn package.json 4@1.0.0 No repository field.
+7 warn package.json 4@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'webdriverio', null ]
+10 verbose cache add name=undefined spec="webdriverio" args=["webdriverio",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'webdriverio',
+11 verbose parsed url   path: 'webdriverio',
+11 verbose parsed url   href: 'webdriverio' }
+12 verbose cache add [ '==save', null ]
+13 verbose cache add name=undefined spec="==save" args=["==save",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '==save',
+14 verbose parsed url   path: '==save',
+14 verbose parsed url   href: '==save' }
+15 silly lockFile 25071f80-webdriverio webdriverio
+16 verbose lock webdriverio /home/palkanov-vlad/.npm/25071f80-webdriverio.lock
+17 silly lockFile f3c81799-save ==save
+18 verbose lock ==save /home/palkanov-vlad/.npm/f3c81799-save.lock
+19 silly lockFile 25071f80-webdriverio webdriverio
+20 silly lockFile 25071f80-webdriverio webdriverio
+21 silly lockFile f3c81799-save ==save
+22 silly lockFile f3c81799-save ==save
+23 verbose addNamed [ 'webdriverio', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile de82757e-webdriverio webdriverio@
+26 verbose lock webdriverio@ /home/palkanov-vlad/.npm/de82757e-webdriverio.lock
+27 verbose addNamed [ '==save', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile dd084a72-save ==save@
+30 verbose lock ==save@ /home/palkanov-vlad/.npm/dd084a72-save.lock
+31 silly addNameRange { name: 'webdriverio', range: '*', hasData: false }
+32 silly addNameRange { name: '==save', range: '*', hasData: false }
+33 verbose request where is /==save
+34 verbose request registry https://registry.npmjs.org/
+35 verbose request id aaba9286f0c58a80
+36 verbose url raw /==save
+37 verbose url resolving [ 'https://registry.npmjs.org/', './%3D%3Dsave' ]
+38 verbose url resolved https://registry.npmjs.org/%3D%3Dsave
+39 verbose request where is https://registry.npmjs.org/%3D%3Dsave
+40 info trying registry request attempt 1 at 20:38:42
+41 http GET https://registry.npmjs.org/%3D%3Dsave
+42 verbose request where is /webdriverio
+43 verbose request registry https://registry.npmjs.org/
+44 verbose url raw /webdriverio
+45 verbose url resolving [ 'https://registry.npmjs.org/', './webdriverio' ]
+46 verbose url resolved https://registry.npmjs.org/webdriverio
+47 verbose request where is https://registry.npmjs.org/webdriverio
+48 info trying registry request attempt 1 at 20:38:42
+49 verbose etag "2LN5N9KNFEFEUWZ6V2UDK96W6"
+50 http GET https://registry.npmjs.org/webdriverio
+51 http 304 https://registry.npmjs.org/webdriverio
+52 silly registry.get cb [ 304,
+52 silly registry.get   { date: 'Sun, 22 Nov 2015 17:38:42 GMT',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     'cache-control': 'max-age=60',
+52 silly registry.get     etag: '"2LN5N9KNFEFEUWZ6V2UDK96W6"',
+52 silly registry.get     age: '0',
+52 silly registry.get     connection: 'keep-alive',
+52 silly registry.get     'x-served-by': 'cache-fra1244-FRA',
+52 silly registry.get     'x-cache': 'HIT',
+52 silly registry.get     'x-cache-hits': '1',
+52 silly registry.get     'x-timer': 'S1448213922.717899,VS0,VE203',
+52 silly registry.get     vary: 'Accept' } ]
+53 verbose etag https://registry.npmjs.org/webdriverio from cache
+54 silly addNameRange number 2 { name: 'webdriverio', range: '*', hasData: true }
+55 silly addNameRange versions [ 'webdriverio',
+55 silly addNameRange   [ '2.0.0',
+55 silly addNameRange     '2.0.1',
+55 silly addNameRange     '2.1.0',
+55 silly addNameRange     '2.1.1',
+55 silly addNameRange     '2.1.2',
+55 silly addNameRange     '2.2.0',
+55 silly addNameRange     '2.2.1',
+55 silly addNameRange     '2.2.2',
+55 silly addNameRange     '2.2.3',
+55 silly addNameRange     '2.3.0',
+55 silly addNameRange     '2.4.0',
+55 silly addNameRange     '2.4.1',
+55 silly addNameRange     '2.4.2',
+55 silly addNameRange     '2.4.3',
+55 silly addNameRange     '2.4.4',
+55 silly addNameRange     '2.4.5',
+55 silly addNameRange     '3.0.0',
+55 silly addNameRange     '3.0.1',
+55 silly addNameRange     '3.0.2',
+55 silly addNameRange     '3.0.3',
+55 silly addNameRange     '3.0.4',
+55 silly addNameRange     '3.0.5',
+55 silly addNameRange     '3.1.0',
+55 silly addNameRange     '3.2.0',
+55 silly addNameRange     '3.2.1',
+55 silly addNameRange     '3.2.2',
+55 silly addNameRange     '3.2.3',
+55 silly addNameRange     '3.2.4',
+55 silly addNameRange     '3.2.5',
+55 silly addNameRange     '3.2.6' ] ]
+56 verbose addNamed [ 'webdriverio', '3.2.6' ]
+57 verbose addNamed [ '3.2.6', '3.2.6' ]
+58 silly lockFile d3eac0a2-webdriverio-3-2-6 webdriverio@3.2.6
+59 verbose lock webdriverio@3.2.6 /home/palkanov-vlad/.npm/d3eac0a2-webdriverio-3-2-6.lock
+60 silly lockFile d3eac0a2-webdriverio-3-2-6 webdriverio@3.2.6
+61 silly lockFile d3eac0a2-webdriverio-3-2-6 webdriverio@3.2.6
+62 silly lockFile de82757e-webdriverio webdriverio@
+63 silly lockFile de82757e-webdriverio webdriverio@
+64 http 404 https://registry.npmjs.org/%3D%3Dsave
+65 silly registry.get cb [ 404,
+65 silly registry.get   { 'content-type': 'application/json',
+65 silly registry.get     'cache-control': 'max-age=0',
+65 silly registry.get     'content-length': '66',
+65 silly registry.get     'accept-ranges': 'bytes',
+65 silly registry.get     date: 'Sun, 22 Nov 2015 17:38:42 GMT',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     age: '0',
+65 silly registry.get     connection: 'keep-alive',
+65 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+65 silly registry.get     'x-cache': 'MISS',
+65 silly registry.get     'x-cache-hits': '0',
+65 silly registry.get     'x-timer': 'S1448213922.730743,VS0,VE209' } ]
+66 silly lockFile dd084a72-save ==save@
+67 silly lockFile dd084a72-save ==save@
+68 error 404 Not Found
+68 error 404
+68 error 404 '==save' is not in the npm registry.
+68 error 404 You should bug the author to publish it
+68 error 404 It was specified as a dependency of '4'
+68 error 404
+68 error 404 Note that you can also install from a
+68 error 404 tarball, folder, or http url, or git url.
+69 error System Linux 3.13.0-68-generic
+70 error command "/usr/bin/node" "/usr/bin/npm" "install" "webdriverio" "==save"
+71 error cwd /home/palkanov-vlad/study/magistra/TPO/4
+72 error node -v v0.10.40
+73 error npm -v 1.4.28
+74 error code E404
+75 verbose exit [ 1, true ]

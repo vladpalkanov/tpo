@@ -1,0 +1,16 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --ui qunit --timeout 1200000 --slow 10000 tests/sign-up.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.3.4",
+    "selenium-webdriver": "^2.48.2",
+    "should": "^7.1.1"
+  }
+}
