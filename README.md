@@ -4,15 +4,20 @@ Requires Linux, [for example](http://www.ubuntu.com/download/desktop)
 
 1. First, [install] (https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) __nodejs__ and __npm__
 2. And [java](http://askubuntu.com/questions/48468/how-do-i-install-java)
-2. Next:
+3. Next:
 
 ```
 git clone https://github.com/vladpalkanov/tpo.git & cd tpo
 ```
 
-3. Next:
+4. Next:
 ```
 npm i
+```
+
+You can install mocha globally:
+```
+sudo npm i -g mocha
 ```
 
 To launch:
