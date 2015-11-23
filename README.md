@@ -7,7 +7,7 @@ Requires Linux, [for example](http://www.ubuntu.com/download/desktop)
 2. Next:
 
 ```
-git clone https://github.com/vladpalkanov/tpo.git && cd tpo
+git clone https://github.com/vladpalkanov/tpo.git & cd tpo
 ```
 
 3. Next:
